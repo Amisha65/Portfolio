@@ -1,0 +1,19 @@
+.links a{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; 
+    height: 40px; 
+    border:2px solid rgb(135 80 247);
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.links a:hover {
+    background-color: #ddd; 
+}
+
+.links a svg {
+    font-size: 20px; 
+    color: rgb(135 80 247); 
+}

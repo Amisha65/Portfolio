@@ -1,0 +1,36 @@
+#getInTouch{
+    font-size: 1.5em;
+    font-weight: 650;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    /* margin: auto; */
+}
+
+.contactform input, .contactform textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contactform button {
+    background-color: #8750F7;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contactform button:hover {
+    background-color: #6a39c2;
+}
+
+.contactform label{
+    font-weight: 600;
+}

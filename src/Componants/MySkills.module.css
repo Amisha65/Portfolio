@@ -1,0 +1,74 @@
+.skillTitle{
+    color:rgb(135 80 247);
+    font-size: 2.9em;
+}
+
+.infoPara {
+    font-size: 1.5em;
+    max-width: 800px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.skillContainer, .containerBox {
+    width:120vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin: 0 auto; 
+}
+
+.icon :only-child{
+    height: 15vh;
+    width:15vb;
+}
+
+.icon{
+    border:1px solid #7a7676;
+    border-radius: 2em;
+    width:fit-content;
+    background-color: rgb(246 243 252);
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactBody{
+    padding-bottom: 20px;
+}
+
+.getConnected{
+    font-size: 1.5em;
+    font-weight: 650;
+}
+
+.callMe{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    padding-left: 0.3em;
+}
+
+#icon{
+    color:rgb(135 80 247);
+    font-size: 1.3em; 
+}
+
+.bothBox{
+    display: flex;
+}
+
+@media (max-width: 480px) {
+    .mainContainer{
+        width: 120vb; 
+    }   
+    .bothBox{
+        display: grid;
+        justify-content: center;
+    }
+    .contactBody{
+        margin-top: 5em;
+    }
+}
