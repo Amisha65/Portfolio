@@ -67,7 +67,7 @@
 @media (max-width: 768px) {
     
     .timeline::before {
-        left: 8px; /* Move the line to the left */
+        left: 13px; /* Move the line to the left */
         transform: none;
     }
 
@@ -83,7 +83,7 @@
     }
 
     .timelineicon {
-        left: 0px; /* Position icon on the timeline */
+        left: 0.3em; /* Position icon on the timeline */
         right: auto;
     }
     .timelineitem {

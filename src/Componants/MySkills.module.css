@@ -72,8 +72,8 @@
         margin-top: 5em;
     }
     .icon :only-child{
-        height: 18vh;
-        width:18vb;
+        height: 30vh;
+        width:30vb;
     }
     .infoPara {
         font-size: 2.5em;
@@ -82,4 +82,28 @@
     .skillTitle{
         font-size: 5em;
     }
+}
+
+.html:only-child:hover{
+    color:rgb(239, 41, 41)
+}
+
+.css:only-child:hover{
+    color:rgb(34, 34, 250)
+}
+
+.js:only-child:hover{
+    color:rgb(217, 217, 4)
+}
+
+.bootstrap:only-child:hover{
+    color:#712cf9;
+}
+
+.react:only-child:hover{
+    color:rgb(3, 174, 174)
+}
+
+.mongo:only-child:hover{
+    color:rgb(0, 81, 0)
 }

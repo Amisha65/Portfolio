@@ -29,43 +29,43 @@ const MySkills = () => {
               className={`${css.skillContainer} d-flex justify-content-center align-items-center flex-wrap`}
             >
               <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon}`}>
+                <div className={`${css.icon} ${css.html}`}>
                   <FaHtml5 />
                 </div>
               </div>
 
               <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon}`}>
+                <div className={`${css.icon} ${css.css}`}>
                   <FaCss3Alt />
                 </div>
               </div>
 
               <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon}`}>
+                <div className={`${css.icon} ${css.js}`}>
                   <IoLogoJavascript />
                 </div>
               </div>
 
               <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon}`}>
+                <div className={`${css.icon} ${css.cpp}`}>
                   <PiFileCpp />
                 </div>
               </div>
 
               <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon}`}>
+                <div className={`${css.icon} ${css.bootstrap}`}>
                   <FaBootstrap />
                 </div>
               </div>
 
               <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon}`}>
+                <div className={`${css.icon} ${css.react}`}>
                   <FaReact />
                 </div>
               </div>
 
               <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon}`}>
+                <div className={`${css.icon} ${css.mongo}`}>
                   <SiMongodb />
                 </div>
               </div>
