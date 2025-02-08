@@ -1,3 +1,7 @@
+.mainContainer{
+    padding: 0.5em;      
+} 
+
 .myName h1{
     color:rgb(135 80 247);
     font-size: 2.3em;
@@ -7,12 +11,12 @@
     gap:2em;
 }
 
-.links a{
-    text-decoration: none;
+.links button{
+    border:none;
+    background-color: white;
     color: black;
     font-size: 1.2em;
     font-weight: 400;
-
 }
 
 .hireMe{
@@ -24,9 +28,23 @@
     font-size: 1.2em;
 }
 
+.hireMe {
+    /* Existing styles */
+    position: relative;
+  }
+  
+  .hireMeIcon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hireMe:hover .hireMeIcon {
+    transform: rotate(360deg);
+  }
+
 @media (max-width: 768px) {
     .mainContainer{
-        width: 120vb;        
+        width: 120vb;  
+        padding: 1.5em;      
     } 
     .myName h1{
         font-size: 2.5em;
