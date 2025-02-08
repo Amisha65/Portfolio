@@ -4,11 +4,11 @@ import Links from "./Links";
 const Hello = () => {
   return (
     <>
-      <div className={`container-fluid pb-5 ${css.mainContainer}`}>
-        <div
-          className={`${css.box} container mt-5 d-flex justify-content-start align-content-center`}
-        >
-          <div className="row p-4 ">
+      <div
+        className={`container-fluid pb-5 ${css.mainContainer} d-flex justify-content-start align-content-center`}
+      >
+        <div className={`${css.box} container mt-5 `}>
+          <div className={`${css.row} d-flex px-4 pt-4`}>
             <div className={`${css.column8} col-8`}>
               <p className={`${css.frondEnd} mb-1`}>Front End Developer</p>
 
@@ -22,14 +22,17 @@ const Hello = () => {
               </p>
             </div>
 
-            <div className="col-4 d-flex justify-content-center">
+            <div
+              className={`${css.photoContainer} col-4  justify-content-center `}
+            >
               <img
                 className={`${css.myPhoto} d-flex align-content-center justify-content-end `}
                 src="Images/my.jpg"
                 alt="My Image"
               />
             </div>
-
+          </div>
+          <div className={`${css.links} col-12 pb-2 ps-4`}>
             <Links></Links>
           </div>
         </div>

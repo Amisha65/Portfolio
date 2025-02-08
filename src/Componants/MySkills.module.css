@@ -60,7 +60,7 @@
     display: flex;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .mainContainer{
         width: 120vb; 
     }   
@@ -70,5 +70,16 @@
     }
     .contactBody{
         margin-top: 5em;
+    }
+    .icon :only-child{
+        height: 18vh;
+        width:18vb;
+    }
+    .infoPara {
+        font-size: 2.5em;
+        margin-bottom: 1.2em;
+    }
+    .skillTitle{
+        font-size: 5em;
     }
 }

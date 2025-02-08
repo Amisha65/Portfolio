@@ -7,8 +7,8 @@ const About = () => {
   return (
     <>
       <div className={`container-fluid my-5 py-5 ${css.mainContainer}`}>
-        <div className="container">
-          <div className="row">
+        <div className={`container ${css.subContainer}`}>
+          <div className={`row ${css.rowContainer}`}>
             <div
               className={`${css.imageContainer} col-12 col-lg-5 d-flex  flex-wrap justify-content-center align-content-center`}
             >
@@ -29,8 +29,8 @@ const About = () => {
             <div className={`${css.myInfo} col-6 d-grid align-content-center`}>
               <h2>About me</h2>
               <p>
-                Hi, I'm Md Mufazzal Hossain Yamin, a web developer skilled in
-                HTML, <b>CSS, JavaScript,</b> and <b>modern frameworks.</b> I've
+                Hi, I'm Amisha Dhanawade, a web developer skilled in HTML,{" "}
+                <b>CSS, JavaScript,</b> and <b>modern frameworks.</b> I've
                 completed several personal and collaborative projects,
                 specializing in <b>responsive designs</b> and{" "}
                 <b>seamless user experiences.</b> I'm passionate about building{" "}

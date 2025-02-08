@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 500px;
+    width: 500px;
     /* margin: auto; */
 }
 
@@ -33,4 +33,11 @@
 
 .contactform label{
     font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .contactform {
+        width: 700px;
+        font-size: 1.3em;
+    }
 }

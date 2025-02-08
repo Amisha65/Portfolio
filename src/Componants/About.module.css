@@ -68,28 +68,38 @@
     z-index: 1;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .mainContainer{
         width: 120vb; 
-    }   
+    }  
+    .subContainer{
+        display: flex;
+        justify-content: center;
+    }
+    .rowContainer{
+        width: 90vb;
+        display: flex;
+        justify-content: start;
+    }
     .imageContainer {
-       padding-bottom: 3em;
+       padding-bottom: 7em;
     }
     .styledImage{
         width: 500px;
-    height: 70vh;
+        height: 70vh;
     }
     .blueSquare {
         bottom: -525px;
         left: -535px;
     }
-    .line{
-        visibility: hidden;
-    }    
     .myInfo{
-        width: 90%;
+        font-size: 1.9em;
+        width: 75vb;
+        display: flex;
+       justify-content: flex-start;
     }
     .myInfo h2{
-        text-align: center;
+        font-size: 3.3em;
+        text-align: start;
     }
 }

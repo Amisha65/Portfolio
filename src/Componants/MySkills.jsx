@@ -28,28 +28,46 @@ const MySkills = () => {
             <div
               className={`${css.skillContainer} d-flex justify-content-center align-items-center flex-wrap`}
             >
-              <div className={`${css.icon} col-3`}>
-                <FaHtml5 />
-              </div>
-              <div className={`${css.icon} col-3`}>
-                <FaCss3Alt />
-              </div>
-              <div className={`${css.icon} col-3`}>
-                <IoLogoJavascript />
-              </div>
-              <div className={`${css.icon} col-3`}>
-                <PiFileCpp />
-              </div>
-              <div className={`${css.icon} col-3`}>
-                <FaBootstrap />
+              <div className="col-12 col-lg-3 d-flex justify-content-center">
+                <div className={`${css.icon}`}>
+                  <FaHtml5 />
+                </div>
               </div>
 
-              <div className={`${css.icon} col-3`}>
-                <FaReact />
+              <div className="col-12 col-lg-3 d-flex justify-content-center">
+                <div className={`${css.icon}`}>
+                  <FaCss3Alt />
+                </div>
               </div>
 
-              <div className={`${css.icon} col-3`}>
-                <SiMongodb />
+              <div className="col-12 col-lg-3 d-flex justify-content-center">
+                <div className={`${css.icon}`}>
+                  <IoLogoJavascript />
+                </div>
+              </div>
+
+              <div className="col-12 col-lg-3 d-flex justify-content-center">
+                <div className={`${css.icon}`}>
+                  <PiFileCpp />
+                </div>
+              </div>
+
+              <div className="col-12 col-lg-3 d-flex justify-content-center">
+                <div className={`${css.icon}`}>
+                  <FaBootstrap />
+                </div>
+              </div>
+
+              <div className="col-12 col-lg-3 d-flex justify-content-center">
+                <div className={`${css.icon}`}>
+                  <FaReact />
+                </div>
+              </div>
+
+              <div className="col-12 col-lg-3 d-flex justify-content-center">
+                <div className={`${css.icon}`}>
+                  <SiMongodb />
+                </div>
               </div>
             </div>
           </div>
