@@ -48,13 +48,8 @@
     .links{
         gap:1em;
     }
-    .links a{
-        font-size: 1.7em;
-        font-weight: 100;
-    }
     .hireMe{
-        font-size: 1.7em;
-        padding-left: 1em;
+        font-size: 1.2em;
     }
     
 }

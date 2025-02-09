@@ -55,7 +55,7 @@ const MySkills = () => {
                 </div>
               </VisibilityWrapper>
 
-              <VisibilityWrapper delay={0.9}>
+              <VisibilityWrapper delay={0.1}>
                 <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
                   <div className={`${css.icon} ${css.cpp}`}>
                     <PiFileCpp />
@@ -63,7 +63,7 @@ const MySkills = () => {
                 </div>
               </VisibilityWrapper>
 
-              <VisibilityWrapper delay={0.8}>
+              <VisibilityWrapper delay={0.1}>
                 <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
                   <div className={`${css.icon} ${css.bootstrap}`}>
                     <FaBootstrap />
@@ -71,7 +71,7 @@ const MySkills = () => {
                 </div>
               </VisibilityWrapper>
 
-              <VisibilityWrapper delay={0.7}>
+              <VisibilityWrapper delay={0.1}>
                 <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
                   <div className={`${css.icon} ${css.react}`}>
                     <FaReact />
@@ -79,7 +79,7 @@ const MySkills = () => {
                 </div>
               </VisibilityWrapper>
 
-              <VisibilityWrapper delay={0.6}>
+              <VisibilityWrapper delay={0.1}>
                 <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
                   <div className={`${css.icon} ${css.mongo}`}>
                     <SiMongodb />
