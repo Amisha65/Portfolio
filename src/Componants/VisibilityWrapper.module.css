@@ -1,0 +1,12 @@
+/* Default hidden state for VisibilityWrapper */
+.wrapper {
+    opacity: 0;
+    transform: translateY(50px); /* Start lower */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/* When visible (faded in and moved up) */
+.visible {
+    opacity: 1;
+    transform: translateY(0); /* Move to original position */
+}

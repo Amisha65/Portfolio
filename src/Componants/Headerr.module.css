@@ -26,12 +26,8 @@
     height:2.3em;
     background-color: rgb(135 80 247);
     font-size: 1.2em;
-}
-
-.hireMe {
-    /* Existing styles */
     position: relative;
-  }
+}
   
   .hireMeIcon {
     transition: transform 0.3s ease-in-out;

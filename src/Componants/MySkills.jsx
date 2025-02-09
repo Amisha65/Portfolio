@@ -6,6 +6,7 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { PiFileCpp } from "react-icons/pi";
+import VisibilityWrapper from "./VisibilityWrapper";
 
 const MySkills = () => {
   return (
@@ -13,62 +14,78 @@ const MySkills = () => {
       <div className={`container-fluid my-5 py-5 ${css.mainContainer}`}>
         <div className="container">
           <div className="row ">
-            <div className="col-12 d-flex justify-content-center align-items-center">
-              <h1 className={`${css.skillTitle}`}>My Skills</h1>
-            </div>
+            <VisibilityWrapper delay={0.13}>
+              <div className="col-12 d-flex justify-content-center align-items-center">
+                <h1 className={`${css.skillTitle} fadein`}>My Skills</h1>
+              </div>
 
-            <div className="col-12">
-              <p className={`${css.infoPara} py-4`}>
-                Proficient in modern technologies, frameworks and tools. Skilled
-                in responsive design, problem-solving, and creating seamless
-                user experiences.
-              </p>
-            </div>
+              <div className="col-12">
+                <p className={`${css.infoPara} py-4 `}>
+                  Proficient in modern technologies, frameworks and tools.
+                  Skilled in responsive design, problem-solving, and creating
+                  seamless user experiences.
+                </p>
+              </div>
+            </VisibilityWrapper>
 
             <div
-              className={`${css.skillContainer} d-flex justify-content-center align-items-center flex-wrap`}
+              className={`${css.skillContainer} d-flex justify-content-center align-items-center flex-wrap `}
             >
-              <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon} ${css.html}`}>
-                  <FaHtml5 />
+              <VisibilityWrapper delay={0.12}>
+                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                  <div className={`${css.icon} ${css.html}`}>
+                    <FaHtml5 />
+                  </div>
                 </div>
-              </div>
+              </VisibilityWrapper>
 
-              <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon} ${css.css}`}>
-                  <FaCss3Alt />
+              <VisibilityWrapper delay={0.11}>
+                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                  <div className={`${css.icon} ${css.css}`}>
+                    <FaCss3Alt />
+                  </div>
                 </div>
-              </div>
+              </VisibilityWrapper>
 
-              <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon} ${css.js}`}>
-                  <IoLogoJavascript />
+              <VisibilityWrapper delay={0.1}>
+                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                  <div className={`${css.icon} ${css.js}`}>
+                    <IoLogoJavascript />
+                  </div>
                 </div>
-              </div>
+              </VisibilityWrapper>
 
-              <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon} ${css.cpp}`}>
-                  <PiFileCpp />
+              <VisibilityWrapper delay={0.9}>
+                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                  <div className={`${css.icon} ${css.cpp}`}>
+                    <PiFileCpp />
+                  </div>
                 </div>
-              </div>
+              </VisibilityWrapper>
 
-              <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon} ${css.bootstrap}`}>
-                  <FaBootstrap />
+              <VisibilityWrapper delay={0.8}>
+                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                  <div className={`${css.icon} ${css.bootstrap}`}>
+                    <FaBootstrap />
+                  </div>
                 </div>
-              </div>
+              </VisibilityWrapper>
 
-              <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon} ${css.react}`}>
-                  <FaReact />
+              <VisibilityWrapper delay={0.7}>
+                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                  <div className={`${css.icon} ${css.react}`}>
+                    <FaReact />
+                  </div>
                 </div>
-              </div>
+              </VisibilityWrapper>
 
-              <div className="col-12 col-lg-3 d-flex justify-content-center">
-                <div className={`${css.icon} ${css.mongo}`}>
-                  <SiMongodb />
+              <VisibilityWrapper delay={0.6}>
+                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                  <div className={`${css.icon} ${css.mongo}`}>
+                    <SiMongodb />
+                  </div>
                 </div>
-              </div>
+              </VisibilityWrapper>
             </div>
           </div>
         </div>
