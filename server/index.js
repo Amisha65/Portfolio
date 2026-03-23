@@ -51,9 +51,7 @@ app.post("/api/contact", async (request, response) => {
       message,
     });
 
-    sendContactNotification(savedMessage).catch((error) => {
-      console.error("Contact email notification failed:", error);
-    });
+    await sendContactNotification(savedMessage);
 
     return response.status(201).json({
       message: "Message sent successfully.",
