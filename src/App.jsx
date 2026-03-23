@@ -6,7 +6,8 @@ import MySkills from "./Componants/MySkills";
 import Footer from "./Componants/Footer";
 import Contact from "./Componants/Contact";
 import Education from "./Componants/Education";
-import { useEffect } from "react";
+import Project from "./Componants/Project";
+import Toaster from "./Componants/ui/toaster";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
       <section id="skills">
         <MySkills />
       </section>
+      <section id="projects">
+        <Project />
+      </section>
       <section id="education">
         <Education />
       </section>
@@ -28,6 +32,7 @@ function App() {
         <Contact />
       </section>
       <Footer />
+      <Toaster />
     </>
   );
 }

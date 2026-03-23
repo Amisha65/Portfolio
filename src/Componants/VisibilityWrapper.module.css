@@ -3,6 +3,14 @@
     opacity: 0;
     transform: translateY(50px); /* Start lower */
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    width: 100%;
+    max-width: 100%;
+}
+
+.fullWidth {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
 }
 
 /* When visible (faded in and moved up) */

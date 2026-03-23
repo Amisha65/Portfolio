@@ -1,13 +1,30 @@
 .mainContainer{
-    padding: 0.5em;      
+    padding: 0.75rem 0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    position: relative;
 } 
+
+.navBar{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+.myName{
+    flex: 0 0 auto;
+    justify-self: start;
+}
 
 .myName h1{
     color:rgb(135 80 247);
     font-size: 2.3em;
+    margin: 0;
 }
 
 .links{
+    display: flex;
+    align-items: center;
     gap:2em;
 }
 
@@ -19,6 +36,12 @@
     font-weight: 400;
 }
 
+.desktopActions{
+    display: flex;
+    align-items: center;
+    justify-self: end;
+}
+
 .hireMe{
     border:1px solid rgb(135 80 247);
     border-radius: 15px;
@@ -27,6 +50,28 @@
     background-color: rgb(135 80 247);
     font-size: 1.2em;
     position: relative;
+}
+
+.menuToggle{
+    display: none;
+    border: none;
+    background: transparent;
+    color: rgb(135 80 247);
+    font-size: 2rem;
+    line-height: 1;
+    padding: 0.2rem;
+}
+
+.menuPanel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    gap: 1.5rem;
+}
+
+.mobileHireMe{
+    display: none !important;
 }
   
   .hireMeIcon {
@@ -39,17 +84,61 @@
 
 @media (max-width: 768px) {
     .mainContainer{
-        width: 120vb;  
-        padding: 1.5em;      
+        width: 100%;
+        padding: 0.9rem 0;
     } 
+    .navBar{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
     .myName h1{
-        font-size: 2.5em;
+        font-size: 1.9rem;
     } 
+    .desktopActions{
+        display: none;
+    }
+    .menuToggle{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menuPanel{
+        display: none;
+        position: absolute;
+        top: calc(100% + 0.35rem);
+        left: 1rem;
+        right: 1rem;
+        padding: 0;
+        z-index: 10;
+        justify-self: auto;
+    }
+    .menuOpen{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem;
+    }
     .links{
-        gap:1em;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.25rem;
+        background: #ffffff;
+        border-radius: 18px;
+        padding: 0.75rem;
+        box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+    }
+    .links button{
+        text-align: left;
+        padding: 0.6rem 0.4rem;
+        font-size: 1rem;
     }
     .hireMe{
-        font-size: 1.2em;
+        font-size: 1rem;
+        min-height: 44px;
     }
-    
+    .mobileHireMe{
+        display: inline-flex !important;
+        align-self: stretch;
+    }
 }

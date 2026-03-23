@@ -9,55 +9,65 @@ const About = () => {
     <>
       <div className={`container-fluid my-5 py-5 ${css.mainContainer}`}>
         <div className={`container ${css.subContainer}`}>
-          <VisibilityWrapper delay={0.8}>
+          <VisibilityWrapper delay={0.8} fullWidth>
             <div className={`row ${css.rowContainer}`}>
               <div
-                className={`${css.imageContainer} col-12 col-lg-5 d-flex  flex-wrap justify-content-center align-content-center`}
+                className={`${css.imageContainer} col-12 col-lg-5 d-flex flex-wrap justify-content-center align-content-center`}
               >
-                <img
-                  src="Images/my1.jpg"
-                  alt="Styled"
-                  className={css.styledImage}
-                />
-                <div className={css.decorativeElements}>
-                  <div className={css.topLeftLines}></div>
-                  <div className={css.greenSquare}></div>
-                  <div className={css.blueSquare}></div>
+                <div className={css.imageFrame}>
+                  <img
+                    src="Images/my1.jpg"
+                    alt="Styled"
+                    className={css.styledImage}
+                  />
+                  <div className={css.decorativeElements}>
+                    <div className={css.greenSquare}></div>
+                    <div className={css.blueSquare}></div>
+                  </div>
                 </div>
               </div>
 
-              <div className={`col-1 p-0 m-0 ${css.line}`}></div>
+              <div className={`col-lg-1 p-0 m-0 ${css.line}`}></div>
 
               <div
-                className={`${css.myInfo} col-6 d-grid align-content-center`}
+                className={`${css.myInfo} col-12 col-lg-6`}
               >
-                <h2>About me</h2>
-                <p>
-                  Hi, I'm Amisha Dhanawade, a web developer skilled in HTML,{" "}
-                  <b>CSS, JavaScript,</b> and <b>modern frameworks.</b> I've
-                  completed several personal and collaborative projects,
-                  specializing in <b>responsive designs</b> and{" "}
-                  <b>seamless user experiences.</b> I'm passionate about
-                  building <b>impactful digital solutions</b> and continuously
-                  improving my skills. Excited to contribute to innovative
-                  projects and make a <b>positive difference</b> in the tech
-                  world.
-                </p>
-                <div className={`${css.persnolnfo} pt-3`}>
+                <div className={css.mobileContent}>
+                  <h2>About me</h2>
                   <p>
-                    <LiaBirthdayCakeSolid className={`${css.icon}`} />
-                    September 27, 2004
+                    <b>
+                      Hi, I&apos;m Amisha Dhanawade, a software developer with a
+                      strong foundation in full-stack development and
+                      problem-solving.
+                    </b>
                   </p>
+                  <p>
+                    I have solved <b>400+ DSA problems</b>, which has
+                    strengthened my ability to write efficient and scalable
+                    code. I enjoy building real-world applications using
+                    technologies like <b>JavaScript, React, Node.js, and SQL</b>.
+                  </p>
+                  <p>
+                    I focus on writing clean, maintainable code and creating
+                    user-friendly solutions, while continuously improving my
+                    skills and learning new technologies.
+                  </p>
+                  <div className={`${css.persnolnfo} pt-3`}>
+                    <p>
+                      <LiaBirthdayCakeSolid className={`${css.icon}`} />
+                      September 27, 2004
+                    </p>
 
-                  <p>
-                    <CiLocationOn className={`${css.icon}`} />
-                    Baramati, Pune, Maharastra
-                  </p>
+                    <p>
+                      <CiLocationOn className={`${css.icon}`} />
+                      Baramati, Pune, Maharastra
+                    </p>
 
-                  <p>
-                    <IoLanguageOutline className={`${css.icon}`} />
-                    Marathi, Hindi, English
-                  </p>
+                    <p>
+                      <IoLanguageOutline className={`${css.icon}`} />
+                      Marathi, Hindi, English
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import "../App.css";
 import css from "./VisibilityWrapper.module.css";
 
-const VisibilityWrapper = ({ children, delay = 0.5 }) => {
+const VisibilityWrapper = ({ children, delay = 0.5, fullWidth = false }) => {
   const [isVisible, setIsVisible] = useState(false);
   const elementRef = useRef(null);
 
@@ -30,7 +30,7 @@ const VisibilityWrapper = ({ children, delay = 0.5 }) => {
   return (
     <div
       ref={elementRef}
-      className={`${css.wrapper} ${isVisible ? css.visible : ""}`}
+      className={`${css.wrapper} ${fullWidth ? css.fullWidth : ""} ${isVisible ? css.visible : ""}`}
       style={{ transitionDelay: `${delay}s` }}
     >
       {children}

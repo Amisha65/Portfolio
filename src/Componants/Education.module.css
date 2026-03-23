@@ -67,13 +67,14 @@
 @media (max-width: 768px) {
     
     .timeline::before {
-        left: 65px; /* Move the line to the left */
+        left: 28px; /* Move the line to the left */
         transform: none;
+        height: calc(100% - 70px);
     }
 
     .timelineitem {
-        width:80%; /* Make items full-width */
-        padding-left: 90px; /* Add space for the timeline */
+        width: 100%;
+        padding: 0 0 20px 56px;
     }
 
     .timelineitem.left,
@@ -83,17 +84,26 @@
     }
 
     .timelineicon {
-        left: 3.3em; /* Position icon on the timeline */
+        left: 18px;
         right: auto;
     }
     .timelineitem.right .timelineicon{
         right: auto;
-        left: 56px;
+        left: 18px;
     }
     .timelineitem {
-        font-size: 1.2em;
+        font-size: 1rem;
     }
     .timelineitem h5{
-        font-size: 1.6em;
+        font-size: 1.2rem;
+        line-height: 1.45;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+    .timelinecontent {
+        padding: 16px;
+    }
+    #degree {
+        font-size: 1.1rem;
     }
 }

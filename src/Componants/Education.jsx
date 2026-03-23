@@ -8,7 +8,7 @@ const Education = () => {
     <>
       <div className={`${skill.containerBox} container-fluid py-5 my-5`}>
         <div className="container">
-          <VisibilityWrapper delay={0.14}>
+          <VisibilityWrapper delay={0.14} fullWidth>
             <div className="row">
               <div
                 className={` col-12 d-flex justify-content-center align-items-center`}
@@ -21,7 +21,7 @@ const Education = () => {
               </div>
             </div>
           </VisibilityWrapper>
-          <VisibilityWrapper delay={0.12}>
+          <VisibilityWrapper delay={0.12} fullWidth>
             <div className={`${css.timeline}`}>
               <div className={`${css.timelineitem} ${css.left}`}>
                 <div className={css.timelineicon}>

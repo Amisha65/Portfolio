@@ -14,7 +14,7 @@ const MySkills = () => {
       <div className={`container-fluid my-5 py-5 ${css.mainContainer}`}>
         <div className="container">
           <div className="row ">
-            <VisibilityWrapper delay={0.13}>
+            <VisibilityWrapper delay={0.13} fullWidth>
               <div className="col-12 d-flex justify-content-center align-items-center">
                 <h1 className={`${css.skillTitle} fadein`}>My Skills</h1>
               </div>
@@ -29,10 +29,10 @@ const MySkills = () => {
             </VisibilityWrapper>
 
             <div
-              className={`${css.skillContainer} d-flex justify-content-center align-items-center flex-wrap `}
+              className={`${css.skillContainer}`}
             >
               <VisibilityWrapper delay={0.12}>
-                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                <div className={`${css.skillItem} fadein`}>
                   <div className={`${css.icon} ${css.html}`}>
                     <FaHtml5 />
                   </div>
@@ -40,7 +40,7 @@ const MySkills = () => {
               </VisibilityWrapper>
 
               <VisibilityWrapper delay={0.11}>
-                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                <div className={`${css.skillItem} fadein`}>
                   <div className={`${css.icon} ${css.css}`}>
                     <FaCss3Alt />
                   </div>
@@ -48,7 +48,7 @@ const MySkills = () => {
               </VisibilityWrapper>
 
               <VisibilityWrapper delay={0.1}>
-                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                <div className={`${css.skillItem} fadein`}>
                   <div className={`${css.icon} ${css.js}`}>
                     <IoLogoJavascript />
                   </div>
@@ -56,7 +56,7 @@ const MySkills = () => {
               </VisibilityWrapper>
 
               <VisibilityWrapper delay={0.1}>
-                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                <div className={`${css.skillItem} fadein`}>
                   <div className={`${css.icon} ${css.cpp}`}>
                     <PiFileCpp />
                   </div>
@@ -64,7 +64,7 @@ const MySkills = () => {
               </VisibilityWrapper>
 
               <VisibilityWrapper delay={0.1}>
-                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                <div className={`${css.skillItem} fadein`}>
                   <div className={`${css.icon} ${css.bootstrap}`}>
                     <FaBootstrap />
                   </div>
@@ -72,7 +72,7 @@ const MySkills = () => {
               </VisibilityWrapper>
 
               <VisibilityWrapper delay={0.1}>
-                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                <div className={`${css.skillItem} fadein`}>
                   <div className={`${css.icon} ${css.react}`}>
                     <FaReact />
                   </div>
@@ -80,7 +80,7 @@ const MySkills = () => {
               </VisibilityWrapper>
 
               <VisibilityWrapper delay={0.1}>
-                <div className="col-12 col-lg-3 d-flex justify-content-center fadein">
+                <div className={`${css.skillItem} fadein`}>
                   <div className={`${css.icon} ${css.mongo}`}>
                     <SiMongodb />
                   </div>

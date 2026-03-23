@@ -12,7 +12,7 @@ const Contact = () => {
       <div className={`${css.containerBox} container-fluid py-5 my-5`}>
         <div className="container">
           <div className="row">
-            <VisibilityWrapper delay={0.13}>
+            <VisibilityWrapper delay={0.13} fullWidth>
               <div
                 className={` col-12 d-flex justify-content-center align-items-center`}
               >
@@ -26,7 +26,7 @@ const Contact = () => {
                 </p>
               </div>
             </VisibilityWrapper>
-            <VisibilityWrapper delay={0.11}>
+            <VisibilityWrapper delay={0.11} fullWidth>
               <div className={css.bothBox}>
                 <div className="contactBody col-12 col-lg-8">
                   <ContactForm />
