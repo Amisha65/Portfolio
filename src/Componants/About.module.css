@@ -100,15 +100,22 @@
     .rowContainer{
         width: 100%;
         display: flex;
-        justify-content: start;
+        justify-content: center;
+        align-items: center;
+        row-gap: 2rem;
     }
     .rowContainer > div{
         width: 100%;
     }
     .imageContainer {
-       padding: 0 0 3em;
+       padding: 0 0 2rem;
        display: flex;
-       justify-content: center;
+       justify-content: center !important;
+       align-items: center;
+       margin: 0 auto;
+    }
+    .imageFrame{
+        margin: 0 auto;
     }
     .styledImage{
         width: min(100%, 320px);

@@ -9,7 +9,7 @@ const Links =()=>{
     return (
         <>
             <div className={`${css.links} col d-flex align-content-center gap-3`}>
-                <a href="http://www.linkedin.com/in/amisha00dh" target="_blank" rel="noopener noreferrer"><CiLinkedin /></a>
+                <a href="https://www.linkedin.com/in/amishadh00/" target="_blank" rel="noopener noreferrer"><CiLinkedin /></a>
                 <a href="https://github.com/Amisha65" target="_blank" rel="noopener noreferrer"><FiGithub /></a>
                 <a href="https://www.instagram.com/amisha_156509?igsh=MXdkd3c5Y2tzOWlwbQ==" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
                 <a href="https://leetcode.com/u/Amishadh/" target="_blank" rel="noopener noreferrer"><SiLeetcode /></a>
